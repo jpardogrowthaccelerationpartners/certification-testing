@@ -7,7 +7,7 @@ on:
       - 'bruno/**'
       - '.github/workflows/on-pullrequest-codeql-analysis.yml'
       - '.github/workflows/on-pullrequest-bidi-scan.yml'
-
+  workflow_dispatch:
   push:
     branches: [ main ]
 
