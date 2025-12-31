@@ -13,7 +13,6 @@ on:
 
 permissions: read-all
 
-
 jobs:
 
   scan-actions-bidi:
