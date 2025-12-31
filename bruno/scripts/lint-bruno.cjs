@@ -203,7 +203,7 @@ function outputHuman() {
     if (FIX_MODE && fixes.length) {
       console.log(`✓ All Bruno files passed after fixing ${fixes.length} file(s).`);
     } else {
-      console.log('✓ All Bruno files passed lint checks.');
+      console.log('✓ All Bruno files passed lint checks. Dummy');
     }
   }
 }
